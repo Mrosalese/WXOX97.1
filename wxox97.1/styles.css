@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  /* Base font size */
+  font-family: 'Ubuntu',Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: #a1a6b4;
+  line-height: 1.1em;
+  color: black;
+}
+p{
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.2em;
+}
+
+img{
+  width: 100%;
+  height: ;
+  /* Remove hight when I have an image */
+  background-color: red;
+  /* I can use max-width:100% also */
+}
+#top{
+  background-color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+span{
+
+  color: red;
+}
+
+h1{
+  font-weight: 600;
+  letter-spacing: 3.5px;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2{
+  font-weight: 600;
+  letter-spacing: 3.5px;
+  font-size: 2em;
+  text-align: center;
+}
+
+nav ul{
+  text-align: center;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+nav a{
+  display: block;
+  padding:15px;
+  text-decoration: none;
+  color:black;
+  font-family: , ui-sans-serif;
+  background-color: ;
+}
+
+nav a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+
+.wrapper{
+  width: 90%;
+  margin: auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+#logo{
+  width:190px;
+  display: block;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+  @media only screen and (min-width: 700px) {
+    .wrapper{
+      width:85%;
+      margin:auto;
+    }
+
+  nav li{
+    display: inline-block;
+  }
