@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -91,6 +95,42 @@ nav a:hover{
   margin-right: auto;
 
 }
+
+/* Start Contact Page  */
+.contact-form{
+  font-size: 1.1em;
+}
+.contact-form input{
+  height: 28px;
+  padding-left: 8px;
+  font-size: 1.1em;
+}
+.contact-form input, .contact-form textarea{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px gray solid;
+  border-radius: 3px;
+}
+
+.contact-form textarea{
+  height: 100px;
+  max-width: 100%;
+}
+
+.contact-form input[type="submit"]{
+  background-color: lightblue;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 150px;
+  margin: auto;
+  height: 35px;
+
+}
+
+/* End Contact Page  */
 
   @media only screen and (min-width: 700px) {
     .wrapper{
