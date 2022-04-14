@@ -11,23 +11,52 @@ body{
   font-weight: 400;
   background-color: #a1a6b4;
   line-height: 1.1em;
-  color: black;
+  color: white;
 }
 p{
   font-family: Helvetica, sans-serif;
   font-size: 17px;
   line-height: 1.2em;
+  color: white;
+
 }
 
 img{
   width: 100%;
   height: ;
   /* Remove hight when I have an image */
-  background-color: red;
+  background-color: ;
   /* I can use max-width:100% also */
 }
+
+.m img{
+  float: left;
+  height: 80px;
+  width: 80px;
+  /* border-radius: 50%; */
+  margin-right: 30px;
+}
+
+figure{
+	margin: auto 0;
+	position: relative;
+}
+
+figcaption{
+  font-family: "gill sans", sans-serifs;
+	position: absolute;
+	bottom:5px;
+	/* background: rgba(85,85,85,0.70); */
+	height: 35px;
+	width: 96%;
+	color:white;
+	padding:2%;
+}
+
+
+
 #top{
-  background-color: white;
+  background-color: black;
   padding-top: 1%;
   padding-bottom: 1%;
 }
@@ -60,7 +89,7 @@ nav a{
   display: block;
   padding:15px;
   text-decoration: none;
-  color:black;
+  color:white;
   font-family: , ui-sans-serif;
   background-color: ;
 }
@@ -73,19 +102,20 @@ nav a:hover{
 .footer{
   margin-top: 20px;
   padding:10px;
-  background: #999;
+  background: ;
   text-align: center;
-  background-color: white;
+  background-color: black;
 }
 
 .wrapper{
   width: 90%;
   margin: auto;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px;
-  background-color: #f8f8f8;
+  background-color: black;
 }
+
 
 #logo{
   width:190px;
