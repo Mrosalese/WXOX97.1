@@ -1,0 +1,229 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  /* Base font size */
+  font-family: 'Ubuntu',Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: #a1a6b4;
+  line-height: 1.1em;
+  color: white;
+}
+p{
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.2em;
+  color: white;
+  text-align:  center;
+
+}
+
+img{
+  width: 100%;
+  height: ;
+  /* Remove hight when I have an image */
+  background-color: ;
+  /* I can use max-width:100% also */
+}
+
+.flex-container-one{
+  width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+/* background-color: white; */
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: auto;
+margin-right: auto;
+flex-wrap: wrap;
+/* height: 150px; */
+}
+.flex-container-one div {
+  width: 40%;
+  text-align: center;
+}
+.flex-container-one img{
+  width: 100px;
+}
+
+
+/* .flex-container{
+  text-align: center;
+  line-height: 10px;
+  flex-basis: 95px;
+
+  /* width: 90px; */
+
+
+/* .m img{
+  float: left;
+  height: 80px;
+  width: 80px;
+  /* border-radius: 50%; */
+  /* margin-right: 30px; */
+/* } */
+
+/* figure{
+	margin: auto;
+	position: relative;
+}
+
+figcaption{
+  font-family: "gill sans", sans-serifs;
+	position: absolute;
+	bottom:5px;
+	/* background: rgba(85,85,85,0.70); */
+	/* height: 35px;
+	width: 96%;
+	color:white;
+	padding:2%;
+}  */
+
+
+
+#top{
+  background-color: black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+span{
+
+  color: red;
+}
+
+h1{
+  font-weight: 600;
+  letter-spacing: 3.5px;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2{
+  font-weight: 600;
+  letter-spacing: 3.5px;
+  font-size: 2em;
+  text-align: center;
+}
+
+nav ul{
+  text-align: center;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+nav a{
+  display: block;
+  padding:15px;
+  text-decoration: none;
+  color:white;
+  font-family: , ui-sans-serif;
+  background-color: ;
+}
+
+nav a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+.footer{
+  margin-top: 20px;
+  padding:10px;
+  background: ;
+  text-align: center;
+  background-color: black;
+}
+
+.wrapper{
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: black;
+}
+
+
+#logo{
+  width:190px;
+  display: block;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* Start Contact Page  */
+.contact-form{
+  font-size: 1.1em;
+}
+.contact-form input{
+  height: 28px;
+  padding-left: 8px;
+  font-size: 1.1em;
+}
+.contact-form input, .contact-form textarea{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px gray solid;
+  border-radius: 3px;
+}
+
+.contact-form textarea{
+  height: 100px;
+  max-width: 100%;
+}
+
+.contact-form input[type="submit"]{
+  background-color: lightblue;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 150px;
+  margin: auto;
+  height: 35px;
+
+}
+
+/* End Contact Page  */
+
+  @media only screen and (min-width: 700px) {
+    .wrapper{
+      width:85%;
+      margin:auto;
+    }
+
+  nav li{
+    display: inline-block;
+  }
+
+
+  .flex-container-one img{
+    width: 210px;
+  }
+  /* .flex-container-one{
+    width: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  height: 200%;
+  }
+
+
+  .flex-container{
+    text-align: center;
+    line-height: 10px;
+    flex-basis: 200px; */
