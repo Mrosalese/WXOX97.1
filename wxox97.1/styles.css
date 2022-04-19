@@ -151,7 +151,18 @@ ul a{
 ul a:hover{
   color: blue;
   text-decoration: underline;
+  text-align: center;
 }
+
+.toph{
+      max-width: 270px;
+      display:block;
+      background-color:;
+  margin-right:auto;
+  margin-left: auto;
+  text-align: center;
+
+    }
 
 
 /* listen styles End */
