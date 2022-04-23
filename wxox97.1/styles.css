@@ -68,9 +68,10 @@ span{
 
 h1{
   font-weight: 600%;
-  letter-spacing: 3.5px;
+  letter-spacing: 3.7px;
   font-size: 2em;
   text-align: center;
+  line-height: 1;
 }
 
 h2{
@@ -196,7 +197,7 @@ ul a:hover{
 .map{
   width: auto;
   height: 400px;
-  margin: ;
+  margin: auto;
   text-align: center;
 }
 
